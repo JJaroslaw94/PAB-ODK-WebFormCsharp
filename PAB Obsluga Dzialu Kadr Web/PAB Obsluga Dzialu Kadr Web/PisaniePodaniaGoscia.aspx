@@ -51,6 +51,12 @@
             <asp:Button ID="Button11" runat="server" Text="Wróć" OnClick="Button11_Click" />
             <asp:Button ID="Button12" runat="server" Text="Wyślij" OnClick="Button12_Click" />
         </div>
+        <div class="custompopup" id="divThankYou" runat="server">
+        <p>
+            <asp:Label ID="lblmessage" runat="server"></asp:Label>
+        </p>
+        <asp:Button ID="ButtonExit" CssClass="classname leftpadding" runat="server" Text="Ok" OnClick="ButtonExit_Click1" />
+    </div>
     </form>
 </body>
 </html>

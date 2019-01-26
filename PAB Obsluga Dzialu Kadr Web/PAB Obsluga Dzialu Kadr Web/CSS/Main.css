@@ -2,15 +2,78 @@
     
 }
 
+/* POP UP 
+
+    <div class="custompopup" id="divThankYou" runat="server">
+        <p>
+            <asp:Label ID="lblmessage" runat="server"></asp:Label>
+        </p>
+        <asp:Button ID="ButtonPopUp" CssClass="classname leftpadding" runat="server" Text="Ok" OnClick="ButtonPopUp_Click1" />
+    </div>
+
+*/
+
+.custompopup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    left: 50%;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+}
+
+    .custompopup p, .custompopup div {
+        margin-bottom: 10px;
+    }
+
+    .custompopup label {
+        display: inline-block;
+        text-align: left;
+        width: 120px;
+    }
+
+    .custompopup input[type="text"], .custompopup input[type="password"] {
+        border: 1px solid;
+        border-color: #999 #ccc #ccc;
+        margin: 0;
+        padding: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    .custompopup input[type="text"]:hover, .custompopup input[type="password"]:hover {
+            border-color: #555 #888 #888;
+    }
+
+/* Uniwersalne */
+
 .CentrujacyDIV {
     margin: auto;
-    width: 76px;
+    width: 252px;
 }
 
 .Nalowki1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Oferty OUT 1 */
 
 .OfertyDIV1{
     margin-bottom: 10px;
@@ -47,7 +110,7 @@
 }
 
 
-
+/* Podanie IN */
 
 
 #DivPodaniaGoscia {
@@ -55,8 +118,6 @@
     width: 50%;
     height: 659px;
 }
-
-
 
 .PodaniaDIV1 {
     width: 100%;
@@ -104,5 +165,51 @@
 
 #Button12 {
     float: right;
+    margin-right: 1%;
+}
+
+/* Logowanie Admina */
+
+.LogowanieDIV1 {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 60px;
+    background-color: #808080;
+}
+
+#LabelLogowanie2 {
+    margin-top: 3%;
+    float: left;
+    margin-left: 3%;
+}
+
+#LabelLogowanie3 {
+    margin-top: 3%;
+    float: left;
+    margin-left: 3%;
+}
+
+#TextBoxLogowanie1 {
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+#TextBoxLogowanie2 {
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+#ButtonLogowanieWstecz {
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#ButtonLogowanieLogin {
+    float: right;
+    margin-top: 1%;
     margin-right: 1%;
 }

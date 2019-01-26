@@ -15,7 +15,6 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
         String indexStanowiska;
         String indexDzialu;
         int wybraneStanowisko;
-        String stanowisko;
         SqlDataAdapter sda;
         SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\App_Data\BazaDanch.mdf;Integrated Security=True");
         SqlCommand Sq;
@@ -23,13 +22,13 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
             sda = new SqlDataAdapter("select NAZWA_STANOWISKA, ID_DZIALU, ID_STANOWISKA from STANOWISKA", conn);
             Stanowiska = new DataTable();
             sda.Fill(Stanowiska);
 
             if (!IsPostBack)
-            {              
+            {
+                divThankYou.Visible = false;
                 int xTabeliO = Stanowiska.Rows.Count;
 
                 for (int i = 0; i < xTabeliO; i++)
@@ -54,8 +53,6 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
                             }
                         }
                     }
-
-                    
                 }
 
                 sda = new SqlDataAdapter("select NAZWA_DZIALU from DZIAL where ID_DZIALU = '" + indexDzialu + "'", conn);
@@ -64,10 +61,7 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
 
                 TextBoxPodania1.Text = Convert.ToString(Dzialy.Rows[0][0]);
             }
-
             SprawdzanieSesji();
-
-
         }
 
         protected void SprawdzanieSesji()
@@ -129,7 +123,10 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
             SqlDataReader SDR = Sq.ExecuteReader();
             conn.Close();
 
-            Response.Redirect("~/MainMenu.aspx");
+            divThankYou.Visible = true;
+            lblmessage.Text = " Podanie wysłano, Dziękujemy! ";
+            Button11.Enabled = false;
+            Button12.Enabled = false;
         }
 
         protected void DropDownListPodania1_SelectedIndexChanged(object sender, EventArgs e)
@@ -146,6 +143,11 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
             indexStanowiska = Convert.ToString(Stanowiska.Rows[wybraneStanowisko][2]);
             Session["INDEXD"] = Convert.ToString(Stanowiska.Rows[wybraneStanowisko][1]);
             indexDzialu = Convert.ToString(Stanowiska.Rows[wybraneStanowisko][1]);
+        }
+
+        protected void ButtonExit_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("~/MainMenu.aspx");
         }
     }
 }
