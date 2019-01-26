@@ -14,12 +14,12 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void ButtonMenu1_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/LogowanieAdmina.aspx");
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void ButtonMenu2_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/OfertyDlaGoscia.aspx");
         }

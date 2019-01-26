@@ -54,3 +54,5 @@ D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzial
 D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\obj\Debug\PAB Obsluga Dzialu Kadr Web.csproj.CopyComplete
 D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\obj\Debug\PAB Obsluga Dzialu Kadr Web.dll
 D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\obj\Debug\PAB Obsluga Dzialu Kadr Web.pdb
+D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\bin\App_Data\BazaDanch.mdf
+D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\bin\App_Data\BazaDanch_log.ldf

@@ -11,3 +11,98 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.OfertyDIV1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 112px;
+    background-color: #808080;
+}
+
+.OfertyLabelDIV1 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.OfertyTextBoxDIV1 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#Button4 {
+    float: left;
+    margin-left: 20px;
+}
+
+#Button1 {
+    float: left;
+    margin-left: 20px;
+}
+
+#Button3 {
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+
+
+#DivPodaniaGoscia {
+    margin: auto;
+    width: 50%;
+    height: 659px;
+}
+
+
+
+.PodaniaDIV1 {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 60px;
+    background-color: #808080;
+}
+
+.PodaniaLabelDIV1 {
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.PodaniaTextBoxDIV1 {
+    float: right;
+    margin-right: 40%;
+    margin-top: 1%;
+}
+
+#DropDownListPodania1 {
+    width: 150px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+#TextBoxPodania1 {
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%
+}
+
+#LabelPodania1 {
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+#Button11 {
+    float: left;
+    margin-left: 1%;
+}
+
+#Button12 {
+    float: right;
+    margin-right: 1%;
+}

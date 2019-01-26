@@ -67,14 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\BazaDanch.mdf" />
+    <Content Include="App_Data\BazaDanch.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Data\BazaDanch_log.ldf">
       <DependentUpon>BazaDanch.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="CSS\Main.css" />
     <Content Include="LogowanieAdmina.aspx" />
     <Content Include="MainMenu.aspx" />
     <Content Include="OfertyDlaGoscia.aspx" />
+    <Content Include="PisaniePodaniaGoscia.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -99,10 +103,26 @@
     <Compile Include="OfertyDlaGoscia.aspx.designer.cs">
       <DependentUpon>OfertyDlaGoscia.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PisaniePodaniaGoscia.aspx.cs">
+      <DependentUpon>PisaniePodaniaGoscia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PisaniePodaniaGoscia.aspx.designer.cs">
+      <DependentUpon>PisaniePodaniaGoscia.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

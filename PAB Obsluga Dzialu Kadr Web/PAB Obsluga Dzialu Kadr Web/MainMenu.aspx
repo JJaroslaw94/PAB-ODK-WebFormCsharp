@@ -9,12 +9,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="CentrujacyDIV" style="width: 210px">
+        <div class="CentrujacyDIV" style="width: 208px">
             <asp:Label class="Nalowki1" runat="server" Text="Witamy!"></asp:Label>
             <br />
-            <asp:Button ID="Button1" runat="server" Height="50px" OnClick="Button1_Click" Text="Jestem Administratorem" Width="206px" />
+            <asp:Button ID="ButtonMenu1" runat="server" Height="50px" OnClick="ButtonMenu1_Click" Text="Jestem Administratorem" Width="206px" />
             <br />
-            <asp:Button ID="Button2" runat="server" Height="50px" Text="Szukam Pracy" Width="206px" OnClick="Button2_Click" />
+            <asp:Button ID="ButtonMenu2" runat="server" Height="50px" Text="Szukam Pracy" Width="206px" OnClick="ButtonMenu2_Click" />
             <br />
         </div>
     </form>
