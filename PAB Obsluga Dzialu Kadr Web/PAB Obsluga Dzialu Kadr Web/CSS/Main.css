@@ -46,7 +46,7 @@
         width: 120px;
     }
 
-    .custompopup input[type="text"], .custompopup input[type="password"] {
+.custompopup input[type="text"], .custompopup input[type="password"] {
         border: 1px solid;
         border-color: #999 #ccc #ccc;
         margin: 0;
@@ -54,13 +54,14 @@
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         border-radius: 2px;
-    }
+}
 
-    .custompopup input[type="text"]:hover, .custompopup input[type="password"]:hover {
-            border-color: #555 #888 #888;
-    }
+.custompopup input[type="text"]:hover, .custompopup input[type="password"]:hover {
+    border-color: #555 #888 #888;
+}
 
 /* Uniwersalne */
+
 
 .CentrujacyDIV {
     margin: auto;
@@ -212,4 +213,51 @@
     float: right;
     margin-top: 1%;
     margin-right: 1%;
+}
+
+
+/*Panel Administratora*/
+
+.AdminPrzyciskiNawigacji {
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 150px;
+}
+#AdminTytul1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#LabelTytuluAdmina {
+    margin: auto;
+}
+
+#DivPaneluAdmina {
+    background-color: grey;
+}
+
+#DivAdminPracownika{
+    margin: 10px;
+    background-color: red;
+}
+
+#DivAdminStanowiska {
+    margin: 10px;
+    background-color: red;
+}
+
+#DivAdminPodania {
+    margin: 10px;
+    background-color: red;
+}
+
+#DivAdminOferty {
+    margin: 10px;
+    background-color: red;
+}
+
+#DivAdminDzialu {
+    margin: 10px;
+    background-color: red;
 }

@@ -50,6 +50,7 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
 
                 lblmessage.Text = "Witamy " + dttt.Rows[0][0] + " " + dttt.Rows[0][1];
                 Session["User"] = " " + TextBoxLogowanie1.Text + " " + TextBoxLogowanie2.Text + " ";
+                Session["StanPaneluAdministratora"] = "0";
                 divThankYou.Visible = true;
             }   
             else
