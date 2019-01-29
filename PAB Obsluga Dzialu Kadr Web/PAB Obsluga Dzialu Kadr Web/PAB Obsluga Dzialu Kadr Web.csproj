@@ -75,7 +75,13 @@
       <DependentUpon>BazaDanch.mdf</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="CSS\1.css" />
     <Content Include="CSS\Main.css" />
+    <Content Include="DodDz.aspx" />
+    <Content Include="DodOf.aspx" />
+    <Content Include="EdyDz.aspx" />
+    <Content Include="EdyOf.aspx" />
+    <Content Include="EdyPod.aspx" />
     <Content Include="LogowanieAdmina.aspx" />
     <Content Include="MainMenu.aspx" />
     <Content Include="OfertyDlaGoscia.aspx" />
@@ -89,6 +95,41 @@
     </Compile>
     <Compile Include="Admin1.aspx.designer.cs">
       <DependentUpon>Admin1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DodDz.aspx.cs">
+      <DependentUpon>DodDz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DodDz.aspx.designer.cs">
+      <DependentUpon>DodDz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DodOf.aspx.cs">
+      <DependentUpon>DodOf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DodOf.aspx.designer.cs">
+      <DependentUpon>DodOf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdyDz.aspx.cs">
+      <DependentUpon>EdyDz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdyDz.aspx.designer.cs">
+      <DependentUpon>EdyDz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdyOf.aspx.cs">
+      <DependentUpon>EdyOf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdyOf.aspx.designer.cs">
+      <DependentUpon>EdyOf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdyPod.aspx.cs">
+      <DependentUpon>EdyPod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdyPod.aspx.designer.cs">
+      <DependentUpon>EdyPod.aspx</DependentUpon>
     </Compile>
     <Compile Include="LogowanieAdmina.aspx.cs">
       <DependentUpon>LogowanieAdmina.aspx</DependentUpon>

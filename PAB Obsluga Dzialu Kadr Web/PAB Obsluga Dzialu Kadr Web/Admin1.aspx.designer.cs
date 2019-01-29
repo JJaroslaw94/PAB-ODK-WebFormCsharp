@@ -76,6 +76,15 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web {
         protected global::System.Web.UI.WebControls.Button ButtonAdmin1Nawigacja5;
         
         /// <summary>
+        /// ButtonAdminBack1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonAdminBack1;
+        
+        /// <summary>
         /// DivAdminPracownika control.
         /// </summary>
         /// <remarks>
@@ -92,6 +101,24 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelAdminPrac;
+        
+        /// <summary>
+        /// GridViewPrac control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewPrac;
+        
+        /// <summary>
+        /// ButtonDodajPracownika control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonDodajPracownika;
         
         /// <summary>
         /// DivAdminStanowiska control.
@@ -112,6 +139,24 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web {
         protected global::System.Web.UI.WebControls.Label LabelAdminStan;
         
         /// <summary>
+        /// GridViewStan control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewStan;
+        
+        /// <summary>
+        /// ButtonDodajStanowisko control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonDodajStanowisko;
+        
+        /// <summary>
         /// DivAdminPodania control.
         /// </summary>
         /// <remarks>
@@ -128,6 +173,15 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelAdminPod;
+        
+        /// <summary>
+        /// GridViewPod control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewPod;
         
         /// <summary>
         /// DivAdminOferty control.
@@ -148,6 +202,24 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web {
         protected global::System.Web.UI.WebControls.Label LabelAdminOf;
         
         /// <summary>
+        /// GridViewOferty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewOferty;
+        
+        /// <summary>
+        /// ButtonDodajOferte control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonDodajOferte;
+        
+        /// <summary>
         /// DivAdminDzialu control.
         /// </summary>
         /// <remarks>
@@ -164,5 +236,23 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelAdminDz;
+        
+        /// <summary>
+        /// GridViewDz control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewDz;
+        
+        /// <summary>
+        /// ButtonDodajDzial control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonDodajDzial;
     }
 }
