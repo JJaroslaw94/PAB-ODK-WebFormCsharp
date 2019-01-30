@@ -79,9 +79,13 @@
     <Content Include="CSS\Main.css" />
     <Content Include="DodDz.aspx" />
     <Content Include="DodOf.aspx" />
+    <Content Include="DodPr.aspx" />
+    <Content Include="DodSt.aspx" />
     <Content Include="EdyDz.aspx" />
     <Content Include="EdyOf.aspx" />
     <Content Include="EdyPod.aspx" />
+    <Content Include="EdyPr.aspx" />
+    <Content Include="EdySt.aspx" />
     <Content Include="LogowanieAdmina.aspx" />
     <Content Include="MainMenu.aspx" />
     <Content Include="OfertyDlaGoscia.aspx" />
@@ -110,6 +114,20 @@
     <Compile Include="DodOf.aspx.designer.cs">
       <DependentUpon>DodOf.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DodPr.aspx.cs">
+      <DependentUpon>DodPr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DodPr.aspx.designer.cs">
+      <DependentUpon>DodPr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DodSt.aspx.cs">
+      <DependentUpon>DodSt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DodSt.aspx.designer.cs">
+      <DependentUpon>DodSt.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EdyDz.aspx.cs">
       <DependentUpon>EdyDz.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -130,6 +148,20 @@
     </Compile>
     <Compile Include="EdyPod.aspx.designer.cs">
       <DependentUpon>EdyPod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdyPr.aspx.cs">
+      <DependentUpon>EdyPr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdyPr.aspx.designer.cs">
+      <DependentUpon>EdyPr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdySt.aspx.cs">
+      <DependentUpon>EdySt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdySt.aspx.designer.cs">
+      <DependentUpon>EdySt.aspx</DependentUpon>
     </Compile>
     <Compile Include="LogowanieAdmina.aspx.cs">
       <DependentUpon>LogowanieAdmina.aspx</DependentUpon>

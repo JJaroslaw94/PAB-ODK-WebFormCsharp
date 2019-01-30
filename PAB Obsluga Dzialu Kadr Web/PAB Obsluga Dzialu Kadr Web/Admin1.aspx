@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="width: 899px; height: 800px;" class="CentrujacyDIV" id="DivPaneluAdmina">
+        <div style="width: 899px; height: 827px;" class="CentrujacyDIV" id="DivPaneluAdmina">
             <div id="AdminTytul1"> 
                 <asp:Label ID="LabelTytuluAdmina" runat="server" Text="Panel Administratora" Font-Size="Larger"></asp:Label>
             </div>
