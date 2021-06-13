@@ -37,7 +37,7 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
             ButtonLogowanieLogin.Enabled = false;
             ButtonLogowanieWstecz.Enabled = false;
 
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\App_Data\BazaDanch.mdf;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;Integrated Security=True;AttachDbFilename=|DataDirectory|\BazaDanch.mdf;Integrated Security=True");
             SqlDataAdapter sda = new SqlDataAdapter("select count(*) from STANOWISKA INNER JOIN PRACOWNICY ON STANOWISKA.ID_STANOWISKA = PRACOWNICY.ID_STANOWISKA where CONVERT(VARCHAR, PRACOWNICY.E_MAIL_PRACOWNIKA)  ='" + TextBoxLogowanie1.Text + "' and CONVERT(VARCHAR, PRACOWNICY.HASLO_PRACOWNIKA)='" + TextBoxLogowanie2.Text + "' and CONVERT(VARCHAR, STANOWISKA.UPRAWNIENIA) ='Administrator'", conn);
             DataTable dtt = new DataTable();
             sda.Fill(dtt);
