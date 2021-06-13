@@ -14,7 +14,7 @@ namespace PAB_Obsluga_Dzialu_Kadr_Web
         String indexDzialu = "0";
         String indexStanowiska = "0";
         SqlDataAdapter sda;
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\workspace\PAB-ODK-WebFormCsharp\PAB Obsluga Dzialu Kadr Web\PAB Obsluga Dzialu Kadr Web\App_Data\BazaDanch.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;Integrated Security=True;AttachDbFilename=|DataDirectory|\BazaDanch.mdf;Integrated Security=True");
         SqlCommand Sq;
         DataTable Dzialy;
         DataTable Stanowisko;
